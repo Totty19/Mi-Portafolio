@@ -1,0 +1,77 @@
+.ContHead{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    background: transparent;
+    .PcFond{
+        width: 250px;
+        position: absolute;
+        background: transparent;
+        z-index: 1;
+        animation-name: pcFondo;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 25s;
+    }
+    .head1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+        padding: 75px;
+        text-align: center;
+        width: 50%;
+        font-size: 22px;
+        b{
+            font-size: 38px;
+            color: rgb(16, 152, 118);
+        }
+        .ContRedes{
+            display:flex;
+            padding: 5px;
+            gap: 15px;
+            .Logo{
+                list-style: none;
+                text-decoration: none;
+                align-items: center;
+                font-size: 26px;
+                margin: 5px;
+            }
+            img{
+                width: 28px;
+                height: 28px;
+            }
+        }
+    }
+    .head2{
+        display: flex;
+        width: 50%;
+        padding: 80px;
+        align-items: center;
+        text-align: center;
+        z-index: 2;
+        background: transparent;
+        h3{
+            background: transparent;
+        }
+    }
+}
+
+@keyframes pcFondo {
+    0% {
+        transform: translatey(-255px);
+    }
+    25%{
+        transform: translatex(-470px);
+    }
+    50% {
+        transform: translatey(520px);
+    }
+    75%{
+        transform: translatex(470px);
+    }
+    100% {
+        transform: translatey(-255px);
+    }
+}
