@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom'
 const Main = () => {
     return (
         <div className="ContMain">
-            <h2 className='Tit'>Habilidades</h2>
+            <h2 className='Tit' id="habilidades">Habilidades</h2>
             <div className='cajaHabs'>
                 <div className="ContHab">
                     <img src={html} alt="html" />
@@ -53,8 +53,8 @@ const Main = () => {
                     <p className='oculto'>REACT</p>
                 </div>
             </div>
-            <h2 className='Tit'>Proyectos</h2>
-            <div className='ContProyects'>
+            <h2 className='Tit' id="proyectos">Proyectos</h2>
+            <div className='ContProyects' >
                 <div className='CajProyects'>
                     <img src={ecomerce1} alt="" />
                     <p className='oculto2'>Proyecto ficticio diseñado con Html y Css<Link to="https://totty19.github.io/PF-GilAguiar/" className='Link'>Visitar</Link></p>
@@ -64,7 +64,7 @@ const Main = () => {
                     <p className='oculto2'>Proyecto ficticio diseñado con Html, Css y Java Script<Link to="https://totty19.github.io/PF-GilAguiar/" className='Link'>Visitar</Link></p>
                 </div>
             </div>
-            <h2 className='Tit'>Titulos</h2>
+            <h2 className='Tit' id="certificados">Titulos</h2>
             <div className='ContTitulos'>
                 <img src={img1} alt=""/>
                 <img src={img2} alt=""/>

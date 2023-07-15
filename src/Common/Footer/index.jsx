@@ -19,6 +19,7 @@ const Footer = () => {
                 <h5><img src={email} alt="" />tomiexe16@gmail.com</h5>
             </div>
             <p>Página desarrollada con React.Js y diseñada con Sass</p>
+            <p>Está adaptada para cualquier dispositivo <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /></p>
             <p>Desarrollada y diseñada por Tomas Gil Aguiar | 2023</p>
         </div>
     )

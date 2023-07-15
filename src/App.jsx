@@ -1,11 +1,11 @@
 import './Style.scss';
-import { Footer, Main, Header, Navbar} from './Common/index'
+import { Footer, Main, Header, BarNav} from './Common/index'
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter >
-      <Navbar />
+      <BarNav />
       <Header />
       <Main />
       <Footer />

@@ -31,12 +31,14 @@
             display:flex;
             padding: 5px;
             gap: 15px;
+            align-items: center;
             .Logo{
                 list-style: none;
                 text-decoration: none;
                 align-items: center;
                 font-size: 26px;
                 margin: 5px;
+                color: rgb(184, 180, 180);
             }
             img{
                 width: 28px;
@@ -54,6 +56,16 @@
         background: transparent;
         h3{
             background: transparent;
+            font-size: 21px;
+        }
+    }
+    @media (max-width:540px) {
+        .head2{
+            padding: 20px;
+            h3{
+                background: transparent;
+                font-size: 17px;
+            }
         }
     }
 }
@@ -73,5 +85,20 @@
     }
     100% {
         transform: translatey(-255px);
+    }
+}
+
+
+@media (max-width:840px) { 
+    .ContHead{
+        flex-direction: column;
+        align-items: center;
+        .head1{
+            width: 80%;
+            align-items: center;
+        }
+        .head2{
+            width: 80%;
+        }
     }
 }

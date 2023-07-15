@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className="ContHead">
             <img src={reacFond} alt="" className="PcFond"/>
-            <div className="head1">
+            <div className="head1" id="sobre-mi">
                 <h1>Hola!</h1>
                 <h2>Mi nombre es <b>Tomas Gil Aguiar</b></h2>
                 <h2><b>desarrollador</b> front-end</h2>

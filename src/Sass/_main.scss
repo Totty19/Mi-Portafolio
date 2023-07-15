@@ -136,4 +136,39 @@
             }
         }
     }
+    @media (max-width:840px) {
+        .cajaHabs{
+            display: flex;
+            margin: 20px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 60%;
+            gap: 60px;
+            .ContHab{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 15px;
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+        .ContTitulos{
+            img{
+                width: 80%;
+            }
+        }
+        .ContProyects{
+            .CajProyects{
+                img{
+                    width: 80%;
+                    height: 80%;
+                }
+            }
+        }
+    }
 }
