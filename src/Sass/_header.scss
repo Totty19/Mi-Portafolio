@@ -5,14 +5,15 @@
     justify-content: center;
     background: transparent;
     .PcFond{
-        width: 250px;
+        width: 150px;
         position: absolute;
+        top: 30px;
+        left: 120px;
         background: transparent;
-        z-index: 1;
         animation-name: pcFondo;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in;
-        animation-duration: 25s;
+        animation-duration: 9s;
     }
     .head1{
         display: flex;
@@ -72,19 +73,19 @@
 
 @keyframes pcFondo {
     0% {
-        transform: translatey(-255px);
+        transform: scale(1.1);
     }
     25%{
-        transform: translatex(-470px);
+        transform: scale(1.2);
     }
     50% {
-        transform: translatey(520px);
+        transform: scale(1.3);
     }
     75%{
-        transform: translatex(470px);
+        transform: scale(1.2);
     }
     100% {
-        transform: translatey(-255px);
+        transform: scale(1.1);
     }
 }
 

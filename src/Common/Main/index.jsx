@@ -60,7 +60,7 @@ const Main = () => {
                 </div>
                 <div className='CajProyects' data-aos="fade-right">
                     <img src={ecomerce2} alt="" />
-                    <p className='oculto2'>Proyecto ficticio diseñado con Html, Css y Java Script<a href="https://totty19.github.io/PF-GilAguiar/" target='_blank' className='Link'>Visitar</a></p>
+                    <p className='oculto2'>Proyecto ficticio diseñado con Html, Css y Java Script<a href="https://totty19.github.io/Pf-GilAguiarJS/" target='_blank' className='Link'>Visitar</a></p>
                 </div>
             </div>
             <h2 className='Tit' id="certificados">Titulos</h2>

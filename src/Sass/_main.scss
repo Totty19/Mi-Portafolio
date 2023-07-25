@@ -32,25 +32,23 @@
             margin-top: 20px;
             .oculto{
                 display: none;
-                transition: all 0.6s;
+                transition: all 0.4s;
                 position: absolute;
                 background: transparent;
             }
             img{
                 margin-top: 20px;
-                transition: all 0.6s;
+                transition: all 0.4s;
                 width: 150px;
                 height: 150px;
             }
             &:hover{
                 img{
-                    transition: all 0.6s;
-                    transform: scale(0.9);
-                    width: 120px;
-                    height: 120px;
+                    transition: all 0.4s;
+                    transform: scale(0.7);
                 }
                 .oculto{
-                    transition: all 0.6s;
+                    transition: all 0.4s;
                     display: flex;
                     margin-top: 170px;
                 }
