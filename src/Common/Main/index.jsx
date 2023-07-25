@@ -12,7 +12,6 @@ import img1 from '../imgs/tituloDesarrolloWeb.png'
 import img2 from '../imgs/titulo javasCript.png'
 import img3 from '../imgs/tituloReact.png'
 import img4 from '../imgs/titulo Front End.jpeg'
-import { Link } from 'react-router-dom'
 
 
 const Main = () => {
@@ -57,11 +56,11 @@ const Main = () => {
             <div className='ContProyects' >
                 <div className='CajProyects'>
                     <img src={ecomerce1} alt="" />
-                    <p className='oculto2'>Proyecto ficticio diseñado con Html y Css<Link to="https://totty19.github.io/PF-GilAguiar/" className='Link'>Visitar</Link></p>
+                    <p className='oculto2'>Proyecto ficticio diseñado con Html y Css<a href="https://totty19.github.io/PF-GilAguiar/" className='Link'>Visitar</a></p>
                 </div>
                 <div className='CajProyects' data-aos="fade-right">
-                    <Link><img src={ecomerce2} alt="" /></Link>
-                    <p className='oculto2'>Proyecto ficticio diseñado con Html, Css y Java Script<Link to="https://totty19.github.io/PF-GilAguiar/" className='Link'>Visitar</Link></p>
+                    <img src={ecomerce2} alt="" />
+                    <p className='oculto2'>Proyecto ficticio diseñado con Html, Css y Java Script<a href="https://totty19.github.io/PF-GilAguiar/" className='Link'>Visitar</a></p>
                 </div>
             </div>
             <h2 className='Tit' id="certificados">Titulos</h2>
