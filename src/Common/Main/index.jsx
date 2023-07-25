@@ -56,11 +56,11 @@ const Main = () => {
             <div className='ContProyects' >
                 <div className='CajProyects'>
                     <img src={ecomerce1} alt="" />
-                    <p className='oculto2'>Proyecto ficticio diseñado con Html y Css<a href="https://totty19.github.io/PF-GilAguiar/" className='Link'>Visitar</a></p>
+                    <p className='oculto2'>Proyecto ficticio diseñado con Html y Css<a href="https://totty19.github.io/PF-GilAguiar/" target='_blank' className='Link'>Visitar</a></p>
                 </div>
                 <div className='CajProyects' data-aos="fade-right">
                     <img src={ecomerce2} alt="" />
-                    <p className='oculto2'>Proyecto ficticio diseñado con Html, Css y Java Script<a href="https://totty19.github.io/PF-GilAguiar/" className='Link'>Visitar</a></p>
+                    <p className='oculto2'>Proyecto ficticio diseñado con Html, Css y Java Script<a href="https://totty19.github.io/PF-GilAguiar/" target='_blank' className='Link'>Visitar</a></p>
                 </div>
             </div>
             <h2 className='Tit' id="certificados">Titulos</h2>
