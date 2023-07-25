@@ -92,6 +92,11 @@
 
 @media (max-width:840px) { 
     .ContHead{
+        .PcFond{
+            width: 60px;
+            left: 20px;
+            top: 350px;
+        }
         flex-direction: column;
         align-items: center;
         .head1{
