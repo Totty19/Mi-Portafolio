@@ -8,6 +8,7 @@ import react from '../imgs/React-icon.svg.png'
 import html from '../imgs/logo-html.png'
 import ecomerce1 from '../imgs/fondoEcom.png'
 import ecomerce2 from '../imgs/fondoJS.png'
+import ecomerce3 from '../imgs/CocoPalli.png'
 import img1 from '../imgs/tituloDesarrolloWeb.png'
 import img2 from '../imgs/titulo javasCript.png'
 import img3 from '../imgs/tituloReact.png'
@@ -61,6 +62,10 @@ const Main = () => {
                 <div className='CajProyects' data-aos="fade-right">
                     <img src={ecomerce2} alt="" />
                     <p className='oculto2'>Proyecto ficticio diseñado con Html, Css y Java Script<a href="https://totty19.github.io/Pf-GilAguiarJS/" target='_blank' className='Link'>Visitar</a></p>
+                </div>
+                <div className='CajProyects' data-aos="fade-right">
+                    <img src={ecomerce3} alt="" />
+                    <p className='oculto2'>Proyecto real diseñado con React Js<a href="https://cococopalli.000webhostapp.com/" target='_blank' className='Link'>Visitar</a></p>
                 </div>
             </div>
             <h2 className='Tit' id="certificados">Titulos</h2>
