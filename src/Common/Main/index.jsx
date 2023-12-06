@@ -71,11 +71,11 @@ const Main = () => {
             </div>
             <h2 className='Tit' id="certificados">Titulos</h2>
             <div className='ContTitulos'>
-                <img src={img1} alt=""/>
-                <img src={img2} alt=""/>
-                <img src={img3} alt=""/>
-                <img src={img4} alt=""/>
-                <img src={img5} alt=""/>
+                <img src={img1} alt="Titulo"/>
+                <img src={img2} alt="Titulo"/>
+                <img src={img3} alt="Titulo"/>
+                <img src={img4} alt="Titulo"/>
+                <img src={img5} alt="Titulo Ingles"/>
             </div>
 
 
