@@ -13,6 +13,7 @@ import img1 from '../imgs/tituloDesarrolloWeb.png'
 import img2 from '../imgs/titulo javasCript.png'
 import img3 from '../imgs/tituloReact.png'
 import img4 from '../imgs/titulo Front End.jpeg'
+import img5 from '../imgs/tituloIngles.png'
 
 
 const Main = () => {
@@ -74,6 +75,7 @@ const Main = () => {
                 <img src={img2} alt=""/>
                 <img src={img3} alt=""/>
                 <img src={img4} alt=""/>
+                <img src={img5} alt=""/>
             </div>
 
 
