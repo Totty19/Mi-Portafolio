@@ -21,7 +21,7 @@ const Header = () => {
             </div>
             <div className="head2">
                 <h3>
-                    Soy un apasionado por la tecnología y el desarrollo web, con habilidades en la creación de interfaces de usuario utilizando herramientas como HTML, CSS, JavaScript y React.js. He trabajado en proyectos particulares, lo que me ha permitido desarrollar habilidades técnicas y adquirir experiencia práctica. Soy creativo, comprometido y con una gran capacidad de iniciativa. Si deseas conocer más sobre mi y mis habilidades técnicas, te invito a revisar mi portfolio o a contactarme directamente.
+                    Soy un apasionado por la tecnología y el desarrollo web. He trabajado en proyectos particulares, lo que me ha permitido desarrollar habilidades técnicas y adquirir experiencia práctica. Si deseas conocer más sobre mi y mis habilidades técnicas, te invito a revisar mi portafolio o a contactarme aqui: tomiexe16@gmail.com directamente.
                 </h3>
             </div>
         </div>
