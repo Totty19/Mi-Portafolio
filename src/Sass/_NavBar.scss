@@ -26,3 +26,41 @@
     margin-left: 55px;
     background-color: transparent;
 }
+
+.bars{
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width:1000px) {
+    .ContNav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        .bars{
+            display: flex;
+            margin: auto;
+            &:hover + .navBar {
+                top: 60px;
+            }
+        }
+        .navBar{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            width: 200px;
+            height: 400px;
+            top: -500px;
+            position: fixed;
+            background-color: rgba(13, 31, 38, 0.971);
+            border: solid white 1px;
+            &:hover {
+                top: 0;
+            }
+        }
+    }
+    
+}
