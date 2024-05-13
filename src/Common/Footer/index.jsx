@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import MiCv from '../Mi-CV.pdf'
+import MiCv from '../CvTomasGilAguiar.pdf'
 import gitHub from '../imgs/GitHub.png'
 import linkedin from '../imgs/logo-Linkedin.png'
 import flecha from '../imgs/flecha.png'

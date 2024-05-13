@@ -10,6 +10,7 @@ const BarNav = () => {
                 <Nav.Link href="#habilidades" className='navLink'>habilidades</Nav.Link>
                 <Nav.Link href="#proyectos" className='navLink'>proyectos</Nav.Link>
                 <Nav.Link href="#certificados" className='navLink'>certificados</Nav.Link>
+                <Nav.Link href="#Info" className='navLink'>Informacion de proyectos</Nav.Link>
             </Nav>
         </div>     
     );

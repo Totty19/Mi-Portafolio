@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import MiCv from '../Mi-CV.pdf'
+import MiCv from '../CvTomasGilAguiar.pdf'
 import gitHub from '../imgs/GitHub.png'
 import linkedin from '../imgs/logo-Linkedin.png'
 import flecha from '../imgs/flecha.png'
@@ -21,7 +21,7 @@ const Header = () => {
             </div>
             <div className="head2">
                 <h3>
-                    Soy un apasionado por la tecnología y el desarrollo web. He trabajado en proyectos particulares, lo que me ha permitido desarrollar habilidades técnicas y adquirir experiencia práctica. Si deseas conocer más sobre mi y mis habilidades técnicas, te invito a revisar mi portafolio o a contactarme aqui: tomiexe16@gmail.com directamente.
+                    Soy un apasionado por la tecnología y el desarrollo web. He trabajado en proyectos particulares y grupales, lo que me ha permitido desarrollar habilidades técnicas y adquirir experiencia práctica. Si deseas conocer más sobre mi y mis habilidades técnicas, te invito a revisar mi portafolio o a contactarme aqui: tomiexe16@gmail.com directamente.
                 </h3>
             </div>
         </div>
