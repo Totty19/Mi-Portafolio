@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mi-Portafolio/static/css/main.09c6ba99.css",
-    "main.js": "/Mi-Portafolio/static/js/main.0c8b8491.js",
+    "main.css": "/Mi-Portafolio/static/css/main.144bf5fc.css",
+    "main.js": "/Mi-Portafolio/static/js/main.ddf2f64a.js",
     "static/media/fondoEcom.png": "/Mi-Portafolio/static/media/fondoEcom.b946767073d1211733ad.png",
     "static/media/CocoPalli.png": "/Mi-Portafolio/static/media/CocoPalli.7e62f601de1803a2f398.png",
     "static/media/titulo javasCript.png": "/Mi-Portafolio/static/media/titulo javasCript.dbda670ce3bc1dd8c23a.png",
@@ -9,18 +9,19 @@
     "static/media/tituloReact.png": "/Mi-Portafolio/static/media/tituloReact.ee0c1556c3aac5fb79bf.png",
     "static/media/tituloIngles.png": "/Mi-Portafolio/static/media/tituloIngles.b6c9f0e2868c87ec98b0.png",
     "static/media/fondoJS.png": "/Mi-Portafolio/static/media/fondoJS.20b44926978293bf10c8.png",
-    "static/media/Mi-CV.pdf": "/Mi-Portafolio/static/media/Mi-CV.3cd875317eadf96a59d9.pdf",
+    "static/media/Gess.png": "/Mi-Portafolio/static/media/Gess.f3c8673354be6b16b064.png",
+    "static/media/CvTomasGilAguiar.pdf": "/Mi-Portafolio/static/media/CvTomasGilAguiar.6de323e44bbb551b9d88.pdf",
     "static/media/titulo Front End.jpeg": "/Mi-Portafolio/static/media/titulo Front End.625f298676709726d3ef.jpeg",
     "static/media/React-icon.svg.png": "/Mi-Portafolio/static/media/React-icon.svg.f6b89d232c9bc9f828e5.png",
     "static/media/Sass_Logo.png": "/Mi-Portafolio/static/media/Sass_Logo.95b95881f872d00e7e7b.png",
     "static/media/correo.png": "/Mi-Portafolio/static/media/correo.cd19bc09c109c425fb47.png",
     "static/media/logoUbic.png": "/Mi-Portafolio/static/media/logoUbic.76eb43ec4fa4d091bfe7.png",
     "index.html": "/Mi-Portafolio/index.html",
-    "main.09c6ba99.css.map": "/Mi-Portafolio/static/css/main.09c6ba99.css.map",
-    "main.0c8b8491.js.map": "/Mi-Portafolio/static/js/main.0c8b8491.js.map"
+    "main.144bf5fc.css.map": "/Mi-Portafolio/static/css/main.144bf5fc.css.map",
+    "main.ddf2f64a.js.map": "/Mi-Portafolio/static/js/main.ddf2f64a.js.map"
   },
   "entrypoints": [
-    "static/css/main.09c6ba99.css",
-    "static/js/main.0c8b8491.js"
+    "static/css/main.144bf5fc.css",
+    "static/js/main.ddf2f64a.js"
   ]
 }
