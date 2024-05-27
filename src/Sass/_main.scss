@@ -86,6 +86,10 @@
             text-decoration: none;
             align-content: center;
             gap: 15px;
+            .imgNat{
+                height: 400px;
+                width: 230px;
+            }
             h5{
                 b{
                     padding: 2px;
@@ -194,6 +198,9 @@
         .ContProyects {
             .CajProyects{
                 flex-direction: column;
+                img{
+                    width: 100%;
+                }
             }
         }
     }

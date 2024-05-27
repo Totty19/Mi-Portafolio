@@ -10,6 +10,7 @@ import ecomerce1 from '../imgs/fondoEcom.png'
 import ecomerce2 from '../imgs/fondoJS.png'
 import ecomerce3 from '../imgs/CocoPalli.png'
 import ecomerce4 from '../imgs/Gess.png'
+import ecomerce5 from '../imgs/FondoClima.jpg'
 import img1 from '../imgs/tituloDesarrolloWeb.png'
 import img2 from '../imgs/titulo javasCript.png'
 import img3 from '../imgs/tituloReact.png'
@@ -32,7 +33,7 @@ const Main = () => {
                 </div>
                 <div className='CajProyects Caj'>
                     <div className='titLinks'>
-                        <h5>Esta segunda parte del proyecto fue desarrollado completamente para practicas añadiendole <b>Java Script</b></h5>
+                        <h5>Esta segunda parte del proyecto fue desarrollado completamente para practicas añadiendole <b>Java Script(ES6)</b></h5>
                         <Link to="https://totty19.github.io/Pf-GilAguiarJS/" className='Link'>Visitar Web</Link>
                     </div>
                     <img src={ecomerce2} alt="" />
@@ -50,6 +51,13 @@ const Main = () => {
                         <Link to="https://gesst-app-git-master-tomas-gil-aguiars-projects.vercel.app/" className='Link'>Visitar Web</Link>
                     </div>
                     <img src={ecomerce4} alt="" />
+                </div>
+                <div className='CajProyects Caj'>
+                    <div className='titLinks'>
+                        <h5>Proyecto de practica desarrollada con <b>React Native</b> Utilizando una <b>API</b> mediante JSON de: OpenWeather</h5>
+                        <Link to="https://github.com/Totty19/Clima-App" className='Link'>Repositorio</Link>
+                    </div>
+                    <img src={ecomerce5} alt="" className='imgNat'/>
                 </div>
             </div>
             <h2 className='Tit' id="habilidades">Habilidades</h2>
