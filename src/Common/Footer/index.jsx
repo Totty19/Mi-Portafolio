@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <p>Página desarrollada con React.Js y diseñada con Sass</p>
             <p>Está adaptada para cualquier dispositivo <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /></p>
-            <p>Desarrollada y diseñada por Tomas Gil Aguiar | 2023</p>
+            <p>Desarrollada y diseñada por Tomas Gil Aguiar | 2024</p>
         </div>
     )
 }

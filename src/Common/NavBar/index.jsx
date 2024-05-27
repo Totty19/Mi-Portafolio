@@ -6,11 +6,10 @@ const BarNav = () => {
         <div className='ContNav'>
             <img src={img} alt="Bars" className='bars'/>
             <Nav className="navBar">
-                <Nav.Link href="#sobre-mi" className='navLink'>sobre mi</Nav.Link>
-                <Nav.Link href="#habilidades" className='navLink'>habilidades</Nav.Link>
-                <Nav.Link href="#proyectos" className='navLink'>proyectos</Nav.Link>
-                <Nav.Link href="#certificados" className='navLink'>certificados</Nav.Link>
-                <Nav.Link href="#Info" className='navLink'>Informacion de proyectos</Nav.Link>
+                <Nav.Link href="#sobre-mi" className='navLink'>Sobre mi</Nav.Link>
+                <Nav.Link href="#proyectos" className='navLink'>Experiencias</Nav.Link>
+                <Nav.Link href="#habilidades" className='navLink'>Habilidades</Nav.Link>
+                <Nav.Link href="#certificados" className='navLink'>Certificados</Nav.Link>
             </Nav>
         </div>     
     );
