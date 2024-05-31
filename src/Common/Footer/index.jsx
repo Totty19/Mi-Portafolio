@@ -19,8 +19,13 @@ const Footer = () => {
                 <h5><img src={email} alt="" />tomiexe16@gmail.com</h5>
             </div>
             <p>Página desarrollada con React.Js y diseñada con Sass</p>
-            <p>Está adaptada para cualquier dispositivo <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /></p>
             <p>Desarrollada y diseñada por Tomas Gil Aguiar | 2024</p>
+            <p>Está adaptada para cualquier dispositivo <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /></p>
+            <div class="container">
+                <div class="loader"></div>
+                <div class="loader"></div>
+                <div class="loader"></div>
+            </div>
         </div>
     )
 }
