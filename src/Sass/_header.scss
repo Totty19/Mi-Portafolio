@@ -33,13 +33,43 @@
             padding: 5px;
             gap: 15px;
             align-items: center;
+            .tooltip {
+                position: absolute;
+                font-size: 12px;
+                background: transparent;
+                color: #bbbbbb;
+                padding: 5px 8px;
+                border-radius: 1px;
+                box-shadow: 0 8px 8px rgba(16, 152, 118, 0.342);
+                opacity: 0;
+                pointer-events: none;
+                transition: all 0.8s;
+                margin-left: 35px;
+            }
+            
             .Logo{
                 list-style: none;
                 text-decoration: none;
                 align-items: center;
-                font-size: 26px;
-                margin: 5px;
+                font-size: 29px;
+                margin: 7px;
                 color: rgb(184, 180, 180);
+            }
+            &:hover{
+                .tooltip {
+                    margin-bottom: 90px;
+                    opacity: 2;
+                    visibility: visible;
+                }
+                .D{
+                    margin-left: 107px;
+                }
+                .G{
+                    margin-left: -8px;
+                }
+                .L{
+                    margin-left: 46px;
+                }
             }
             img{
                 width: 28px;

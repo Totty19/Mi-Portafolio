@@ -14,8 +14,11 @@ const Header = () => {
                 <h2>Mi nombre es <b>Tomas Gil Aguiar</b></h2>
                 <h2><b>desarrollador</b> front-end</h2>
                 <div className="ContRedes">
+                    <span className="tooltip G">GitHub</span>
                     <Link to="https://github.com/Totty19"><img src={gitHub} alt="" className="Logo"/></Link>
+                    <span className="tooltip L">Linkedin</span>
                     <Link to="https://www.linkedin.com/in/tomas-gil-aguiar-71b572235/"><img src={linkedin} alt=""  className="Logo"/></Link>
+                    <span className="tooltip D">Descargar</span>
                     <a className="Logo" href={MiCv} download>Cv<img src={flecha} alt="" /></a>
                 </div>
             </div>
