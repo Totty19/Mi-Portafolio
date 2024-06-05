@@ -13,6 +13,12 @@ const Header = () => {
                 <h1>Hola!</h1>
                 <h2>Mi nombre es <b>Tomas Gil Aguiar</b></h2>
                 <h2><b>desarrollador</b> front-end</h2>
+                <div className="ConSpinner">
+                    <div class="spinner">
+                        <div class="spinner1"></div>
+                    </div>
+                    <p>En busqueda laboral</p>
+                </div>
                 <div className="ContRedes">
                     <span className="tooltip G">GitHub</span>
                     <Link to="https://github.com/Totty19"><img src={gitHub} alt="" className="Logo"/></Link>
@@ -23,9 +29,14 @@ const Header = () => {
                 </div>
             </div>
             <div className="head2">
-                <h3>
-                    Soy un apasionado por la tecnología y el desarrollo web. He trabajado en proyectos particulares y grupales, lo que me ha permitido desarrollar habilidades técnicas y adquirir experiencia práctica. Si deseas conocer más sobre mi y mis habilidades técnicas, te invito a revisar mi portafolio o a contactarme aqui: tomiexe16@gmail.com directamente.
-                </h3>
+                <div>
+                    <p>
+                        Soy un apasionado por la tecnología y el desarrollo web. He trabajado en proyectos particulares y grupales, lo que me ha permitido desarrollar habilidades técnicas y adquirir experiencia práctica.
+                    </p>
+                    <p>
+                        Si deseas conocer más sobre mi y mis habilidades técnicas, te invito a revisar mi portafolio y/o contactarme.
+                    </p>
+                </div>
             </div>
         </div>
     )

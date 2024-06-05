@@ -28,6 +28,18 @@
             font-size: 38px;
             color: rgb(16, 152, 118);
         }
+        h5{
+            color: gray;
+            margin-bottom: 8px;
+            .Span{
+                border-radius: 50px;
+                background: transparent;
+                padding: 0px 9px;
+                margin: 10px;
+                box-shadow: 0px -5px 20px 0px rgba(16, 152, 118, 0.342), 0px 5px 20px 0px rgb(7, 82, 43);
+                filter: blur(2px);
+            }
+        }
         .ContRedes{
             display:flex;
             padding: 5px;
@@ -85,9 +97,10 @@
         text-align: center;
         z-index: 2;
         background: transparent;
-        h3{
+        p{
             background: transparent;
-            font-size: 21px;
+            font-size: 15px;
+            margin: 22px 0px;
         }
     }
     @media (max-width:540px) {
@@ -98,6 +111,42 @@
                 font-size: 17px;
             }
         }
+    }
+}
+
+.ConSpinner{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    p{
+        padding-top: 15px;
+        font-size: 15px;
+    }
+    .spinner {
+        background-image: linear-gradient(rgb(18, 183, 76) 35%,rgb(0, 225, 255));
+        width: 20px;
+        height: 20px;
+        animation: spinning82341 1.7s linear infinite;
+        text-align: center;
+        border-radius: 50px;
+        filter: blur(1px);
+        box-shadow: 0px -5px 20px 0px rgb(18, 183, 76), 0px 5px 20px 0px rgb(0, 225, 255);
+    }
+    
+    .spinner1 {
+        background-color: rgb(36, 36, 36);
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        filter: blur(10px);
+    }
+}
+
+
+@keyframes spinning82341 {
+    to {
+    transform: rotate(360deg);
     }
 }
 

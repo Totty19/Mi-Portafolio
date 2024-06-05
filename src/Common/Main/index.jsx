@@ -96,7 +96,7 @@ const Main = () => {
                 </div>
             </div>
             
-            <h2 className='Tit' id="certificados">Titulos</h2>
+            <h2 className='Tit' id="certificados">Certificados</h2>
             <div className='ContTitulos'>
                 <img src={img1} alt="Titulo"/>
                 <img src={img2} alt="Titulo"/>
