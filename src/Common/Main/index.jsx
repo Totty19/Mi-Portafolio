@@ -16,6 +16,7 @@ import img2 from '../imgs/titulo javasCript.png'
 import img3 from '../imgs/tituloReact.png'
 import img4 from '../imgs/titulo Front End.jpeg'
 import img5 from '../imgs/tituloIngles.png'
+import img6 from '../imgs/Certificado intermediate.png'
 import { Link } from 'react-router-dom'
 
 
@@ -103,6 +104,7 @@ const Main = () => {
                 <img src={img3} alt="Titulo"/>
                 <img src={img4} alt="Titulo"/>
                 <img src={img5} alt="Titulo Ingles"/>
+                <img src={img6} alt="Titulo Ingles intermediate"/>
             </div>
         </div>
     )
