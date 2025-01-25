@@ -27,7 +27,7 @@ const Main = () => {
             <div className='ContProyects'>
                 <div className='CajProyects Caj'>
                     <div className='titLinks'>
-                        <h5>Esta segunda parte del proyecto fue desarrollado completamente para practicas añadiendole <b>Java Script(ES6)</b></h5>
+                        <h5>Este proyecto fue desarrollado completamente para practicas <b> Html5 / Java Script(ES6)</b></h5>
                         <Link to="https://totty19.github.io/Pf-GilAguiarJS/" className='Link'>Visitar Web</Link>
                     </div>
                     <img src={ecomerce2} alt="" />
