@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mi-Portafolio/static/css/main.bcf60d1a.css",
-    "main.js": "/Mi-Portafolio/static/js/main.789f05da.js",
+    "main.js": "/Mi-Portafolio/static/js/main.aa7c9c3c.js",
     "static/media/Certificado intermediate.png": "/Mi-Portafolio/static/media/Certificado intermediate.6ea4defe3c15c40b6abd.png",
     "static/media/CocoPalli.png": "/Mi-Portafolio/static/media/CocoPalli.7e62f601de1803a2f398.png",
     "static/media/titulo javasCript.png": "/Mi-Portafolio/static/media/titulo javasCript.dbda670ce3bc1dd8c23a.png",
@@ -20,10 +20,10 @@
     "static/media/logoUbic.png": "/Mi-Portafolio/static/media/logoUbic.76eb43ec4fa4d091bfe7.png",
     "index.html": "/Mi-Portafolio/index.html",
     "main.bcf60d1a.css.map": "/Mi-Portafolio/static/css/main.bcf60d1a.css.map",
-    "main.789f05da.js.map": "/Mi-Portafolio/static/js/main.789f05da.js.map"
+    "main.aa7c9c3c.js.map": "/Mi-Portafolio/static/js/main.aa7c9c3c.js.map"
   },
   "entrypoints": [
     "static/css/main.bcf60d1a.css",
-    "static/js/main.789f05da.js"
+    "static/js/main.aa7c9c3c.js"
   ]
 }
