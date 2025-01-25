@@ -6,7 +6,7 @@ import sass from '../imgs/Sass_Logo.png'
 import js from '../imgs/logo-js.png'
 import react from '../imgs/React-icon.svg.png'
 import html from '../imgs/logo-html.png'
-import ecomerce1 from '../imgs/fondoEcom.png'
+import ecomerce1 from '../imgs/letom3D.png'
 import ecomerce2 from '../imgs/fondoJS.png'
 import ecomerce3 from '../imgs/CocoPalli.png'
 import ecomerce4 from '../imgs/Gess.png'
@@ -27,17 +27,17 @@ const Main = () => {
             <div className='ContProyects'>
                 <div className='CajProyects Caj'>
                     <div className='titLinks'>
-                        <h5>Este proyecto fue desarrollado completamente para practicas de: <b>Html5 y Css3(Sass y Boostrap) 100% Responsive</b></h5>
-                        <Link to="https://totty19.github.io/PF-GilAguiar/" className='Link'>Visitar Web</Link>
-                    </div>
-                    <img src={ecomerce1} alt="" />
-                </div>
-                <div className='CajProyects Caj'>
-                    <div className='titLinks'>
                         <h5>Esta segunda parte del proyecto fue desarrollado completamente para practicas añadiendole <b>Java Script(ES6)</b></h5>
                         <Link to="https://totty19.github.io/Pf-GilAguiarJS/" className='Link'>Visitar Web</Link>
                     </div>
                     <img src={ecomerce2} alt="" />
+                </div>
+                <div className='CajProyects Caj'>
+                    <div className='titLinks'>
+                        <h5>Proyecto de practica desarrollada con <b>React Native</b> Utilizando una <b>API</b> mediante JSON de: OpenWeather</h5>
+                        <Link to="https://github.com/Totty19/Clima-App" className='Link'>Repositorio</Link>
+                    </div>
+                    <img src={ecomerce5} alt="" className='imgNat'/>
                 </div>
                 <div className='CajProyects Caj'>
                     <div className='titLinks'>
@@ -55,10 +55,10 @@ const Main = () => {
                 </div>
                 <div className='CajProyects Caj'>
                     <div className='titLinks'>
-                        <h5>Proyecto de practica desarrollada con <b>React Native</b> Utilizando una <b>API</b> mediante JSON de: OpenWeather</h5>
-                        <Link to="https://github.com/Totty19/Clima-App" className='Link'>Repositorio</Link>
+                        <h5>Este es un emprendimiento personal de objetos en 3D! <b> realizada con React Js y diseñada con Sass 100% Responsive</b></h5>
+                        <Link to="https://totty19.github.io/letom3d/" className='Link'>Visitar Web</Link>
                     </div>
-                    <img src={ecomerce5} alt="" className='imgNat'/>
+                    <img src={ecomerce1} alt="" />
                 </div>
             </div>
             <h2 className='Tit' id="habilidades">Habilidades</h2>
