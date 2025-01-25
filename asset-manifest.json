@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/Mi-Portafolio/static/css/main.79484f75.css",
-    "main.js": "/Mi-Portafolio/static/js/main.5862c67e.js",
+    "main.css": "/Mi-Portafolio/static/css/main.bcf60d1a.css",
+    "main.js": "/Mi-Portafolio/static/js/main.789f05da.js",
     "static/media/Certificado intermediate.png": "/Mi-Portafolio/static/media/Certificado intermediate.6ea4defe3c15c40b6abd.png",
-    "static/media/fondoEcom.png": "/Mi-Portafolio/static/media/fondoEcom.b946767073d1211733ad.png",
     "static/media/CocoPalli.png": "/Mi-Portafolio/static/media/CocoPalli.7e62f601de1803a2f398.png",
     "static/media/titulo javasCript.png": "/Mi-Portafolio/static/media/titulo javasCript.dbda670ce3bc1dd8c23a.png",
     "static/media/tituloDesarrolloWeb.png": "/Mi-Portafolio/static/media/tituloDesarrolloWeb.45e18f3fc5aa6629af24.png",
@@ -11,6 +10,7 @@
     "static/media/tituloIngles.png": "/Mi-Portafolio/static/media/tituloIngles.b6c9f0e2868c87ec98b0.png",
     "static/media/fondoJS.png": "/Mi-Portafolio/static/media/fondoJS.20b44926978293bf10c8.png",
     "static/media/FondoClima.jpg": "/Mi-Portafolio/static/media/FondoClima.99d1ff2daada5c8c6065.jpg",
+    "static/media/letom3D.png": "/Mi-Portafolio/static/media/letom3D.3a08d18f175e6e543875.png",
     "static/media/Gess.png": "/Mi-Portafolio/static/media/Gess.f3c8673354be6b16b064.png",
     "static/media/titulo Front End.jpeg": "/Mi-Portafolio/static/media/titulo Front End.625f298676709726d3ef.jpeg",
     "static/media/React-icon.svg.png": "/Mi-Portafolio/static/media/React-icon.svg.f6b89d232c9bc9f828e5.png",
@@ -19,11 +19,11 @@
     "static/media/correo.png": "/Mi-Portafolio/static/media/correo.cd19bc09c109c425fb47.png",
     "static/media/logoUbic.png": "/Mi-Portafolio/static/media/logoUbic.76eb43ec4fa4d091bfe7.png",
     "index.html": "/Mi-Portafolio/index.html",
-    "main.79484f75.css.map": "/Mi-Portafolio/static/css/main.79484f75.css.map",
-    "main.5862c67e.js.map": "/Mi-Portafolio/static/js/main.5862c67e.js.map"
+    "main.bcf60d1a.css.map": "/Mi-Portafolio/static/css/main.bcf60d1a.css.map",
+    "main.789f05da.js.map": "/Mi-Portafolio/static/js/main.789f05da.js.map"
   },
   "entrypoints": [
-    "static/css/main.79484f75.css",
-    "static/js/main.5862c67e.js"
+    "static/css/main.bcf60d1a.css",
+    "static/js/main.789f05da.js"
   ]
 }
