@@ -1,16 +1,7 @@
-import git from '../imgs/Git-Icon.png'
-import gitHub from '../imgs/GitHub.png'
-import bts from '../imgs/logo-bootstrap.png'
-import css from '../imgs/logo-css.png'
-import sass from '../imgs/Sass_Logo.png'
-import js from '../imgs/logo-js.png'
-import react from '../imgs/React-icon.svg.png'
-import html from '../imgs/logo-html.png'
 import ecomerce1 from '../imgs/letom3D.png'
 import ecomerce2 from '../imgs/fondoJS.png'
 import ecomerce3 from '../imgs/CocoPalli.png'
 import ecomerce4 from '../imgs/Gess.png'
-import ecomerce5 from '../imgs/FondoClima.jpg'
 import img1 from '../imgs/tituloDesarrolloWeb.png'
 import img2 from '../imgs/titulo javasCript.png'
 import img3 from '../imgs/tituloReact.png'
@@ -23,21 +14,15 @@ import { Link } from 'react-router-dom'
 const Main = () => {
     return (
         <div className="ContMain">
-            <h2 className='Tit' id="proyectos">Experiencias</h2>
+            <h2 className='Tit' id="proyectos">Proyectos</h2>
             <div className='ContProyects'>
                 <div className='CajProyects Caj'>
                     <div className='titLinks'>
                         <h5>Este proyecto fue desarrollado completamente para practicas <b> Html5 / Java Script(ES6)</b></h5>
                         <Link to="https://totty19.github.io/Pf-GilAguiarJS/" className='Link'>Visitar Web</Link>
+                        <Link to="#py1" className='Link'>Mas info+</Link>
                     </div>
                     <img src={ecomerce2} alt="" />
-                </div>
-                <div className='CajProyects Caj'>
-                    <div className='titLinks'>
-                        <h5>Proyecto de practica desarrollada con <b>React Native</b> Utilizando una <b>API</b> mediante JSON de: OpenWeather</h5>
-                        <Link to="https://github.com/Totty19/Clima-App" className='Link'>Repositorio</Link>
-                    </div>
-                    <img src={ecomerce5} alt="" className='imgNat'/>
                 </div>
                 <div className='CajProyects Caj'>
                     <div className='titLinks'>
@@ -61,42 +46,6 @@ const Main = () => {
                     <img src={ecomerce1} alt="" />
                 </div>
             </div>
-            <h2 className='Tit' id="habilidades">Habilidades</h2>
-            <div className='cajaHabs'>
-                <div className="ContHab">
-                    <img src={html} alt="html" />
-                    <p className='oculto'>HTML</p>
-                </div>
-                <div className="ContHab">
-                    <img src={css} alt="css" />
-                    <p className='oculto'>CSS</p>
-                </div>
-                <div className="ContHab">
-                    <img src={js} alt="js" />
-                    <p className='oculto'>JAVA SCRIPT</p>
-                </div>
-                <div className="ContHab">
-                    <img src={bts} alt="bootstrap" />
-                    <p className='oculto'>BOOTSTRAP</p>
-                </div>
-                <div className="ContHab">
-                    <img src={git} alt="git" />
-                    <p className='oculto'>GIT</p>
-                </div>
-                <div className="ContHab">
-                    <img src={gitHub} alt="github" />
-                    <p className='oculto'>GITHUB</p>
-                </div>
-                <div className="ContHab">
-                    <img src={sass} alt="sass" />
-                    <p className='oculto'>SASS</p>
-                </div>
-                <div className="ContHab">
-                    <img src={react} alt="react" />
-                    <p className='oculto'>REACT</p>
-                </div>
-            </div>
-            
             <h2 className='Tit' id="certificados">Certificados</h2>
             <div className='ContTitulos'>
                 <img src={img1} alt="Titulo"/>
@@ -105,6 +54,20 @@ const Main = () => {
                 <img src={img4} alt="Titulo"/>
                 <img src={img5} alt="Titulo Ingles"/>
                 <img src={img6} alt="Titulo Ingles intermediate"/>
+            </div>
+            <h2 className='Tit' id="Contactame">Contactame</h2>
+            <div>
+                <form
+                action="mailto:tomiexe16@gmail.com"
+                method="post"
+                encType="text/plain"
+                className='Contac'
+                >
+                    <input type="text" id="name" name="name" required placeholder='Tu nombre'/>
+                    <input type="email" id="email" name="email" required placeholder='Tu email'/>
+                    <textarea id="message" name="message" rows="5" required placeholder='Cuenta conmigo para trabajar juntos...'></textarea>
+                    <input type="submit" value="Enviar" />
+                </form>
             </div>
         </div>
     )

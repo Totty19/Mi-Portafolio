@@ -24,9 +24,14 @@
         text-align: center;
         width: 50%;
         font-size: 22px;
+        p{
+            background: transparent;
+            font-size: 20px;
+            text-align: start;
+        }
         b{
             font-size: 38px;
-            color: rgb(16, 152, 118);
+            color: rgb(102, 191, 96);
         }
         h5{
             color: gray;
@@ -91,17 +96,38 @@
     }
     .head2{
         display: flex;
+        flex-direction: column;
         width: 50%;
+        justify-content: center;
         padding: 80px;
         align-items: center;
         text-align: center;
         z-index: 2;
         background: transparent;
-        p{
-            background: transparent;
-            font-size: 15px;
-            margin: 22px 0px;
+        .cajaHabs{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 90px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        .ContHab{
+            display: flex;
+            animation-name: Habs;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: 7s;
+            img{
+                transition: all 0.4s;
+                width: 50px;
+                height: 50px;
+                &:hover{
+                    transform: scale(1.4);
+                }
+            }
         }
+    }
+
     }
     @media (max-width:540px) {
         .head2{
@@ -185,5 +211,23 @@
         .head2{
             width: 80%;
         }
+    }
+}
+
+@keyframes Habs {
+    0% {
+        transform: rotatex(90deg);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scalex(-1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: rotatey(0deg);
     }
 }

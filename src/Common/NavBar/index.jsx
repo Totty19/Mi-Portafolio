@@ -7,9 +7,9 @@ const BarNav = () => {
             <img src={img} alt="Bars" className='bars'/>
             <Nav className="navBar">
                 <Nav.Link href="#sobre-mi" className='navLink'>Sobre mi</Nav.Link>
-                <Nav.Link href="#proyectos" className='navLink'>Experiencias</Nav.Link>
-                <Nav.Link href="#habilidades" className='navLink'>Habilidades</Nav.Link>
+                <Nav.Link href="#proyectos" className='navLink'>Proyectos</Nav.Link>
                 <Nav.Link href="#certificados" className='navLink'>Certificados</Nav.Link>
+                <Nav.Link href="#Contactame" className='navLink'>Contactame</Nav.Link>
             </Nav>
         </div>     
     );

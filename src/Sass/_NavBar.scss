@@ -5,14 +5,14 @@
         display: flex;
         list-style: none;
         text-decoration: none;
-        color: rgba(12, 231, 209, 0.663);
+        color: rgb(102, 191, 96);
         padding: 20px;
         font-size: 24px;
         margin: 0 25px;
         margin-top: 10px;
         transition: all 0.6s;
         &:hover{
-            color: rgb(20, 168, 131);
+            color: rgb(135, 245, 127);
             transition: all 0.6s;
             box-shadow: rgba(0, 0, 0, 0.093) 0px 10px 30px;
             transform: scale(1.05);
