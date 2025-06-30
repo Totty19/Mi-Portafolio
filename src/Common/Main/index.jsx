@@ -20,7 +20,6 @@ const Main = () => {
                     <div className='titLinks'>
                         <h5>Este proyecto fue desarrollado completamente para practicas <b> Html5 / Java Script(ES6)</b></h5>
                         <Link to="https://totty19.github.io/Pf-GilAguiarJS/" className='Link'>Visitar Web</Link>
-                        <Link to="#py1" className='Link'>Mas info+</Link>
                     </div>
                     <img src={ecomerce2} alt="" />
                 </div>
