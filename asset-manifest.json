@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/Mi-Portafolio/static/css/main.3d77fdf2.css",
-    "main.js": "/Mi-Portafolio/static/js/main.35c1591c.js",
+    "main.js": "/Mi-Portafolio/static/js/main.1df39d01.js",
     "static/media/Certificado intermediate.png": "/Mi-Portafolio/static/media/Certificado intermediate.6ea4defe3c15c40b6abd.png",
     "static/media/CocoPalli.png": "/Mi-Portafolio/static/media/CocoPalli.7e62f601de1803a2f398.png",
     "static/media/titulo javasCript.png": "/Mi-Portafolio/static/media/titulo javasCript.dbda670ce3bc1dd8c23a.png",
     "static/media/tituloDesarrolloWeb.png": "/Mi-Portafolio/static/media/tituloDesarrolloWeb.45e18f3fc5aa6629af24.png",
     "static/media/tituloReact.png": "/Mi-Portafolio/static/media/tituloReact.ee0c1556c3aac5fb79bf.png",
     "static/media/tituloIngles.png": "/Mi-Portafolio/static/media/tituloIngles.b6c9f0e2868c87ec98b0.png",
+    "static/media/CvTomasGilAguiar.pdf": "/Mi-Portafolio/static/media/CvTomasGilAguiar.1e56d93a1dde9efc5582.pdf",
     "static/media/fondoJS.png": "/Mi-Portafolio/static/media/fondoJS.20b44926978293bf10c8.png",
     "static/media/letom3D.png": "/Mi-Portafolio/static/media/letom3D.3a08d18f175e6e543875.png",
     "static/media/Gess.png": "/Mi-Portafolio/static/media/Gess.f3c8673354be6b16b064.png",
     "static/media/titulo Front End.jpeg": "/Mi-Portafolio/static/media/titulo Front End.625f298676709726d3ef.jpeg",
     "static/media/React-icon.svg.png": "/Mi-Portafolio/static/media/React-icon.svg.f6b89d232c9bc9f828e5.png",
     "static/media/Sass_Logo.png": "/Mi-Portafolio/static/media/Sass_Logo.95b95881f872d00e7e7b.png",
-    "static/media/CvTomasGilAguiar.pdf": "/Mi-Portafolio/static/media/CvTomasGilAguiar.f3caf3ff6b664965a8f2.pdf",
     "static/media/correo.png": "/Mi-Portafolio/static/media/correo.cd19bc09c109c425fb47.png",
     "static/media/logoUbic.png": "/Mi-Portafolio/static/media/logoUbic.76eb43ec4fa4d091bfe7.png",
     "index.html": "/Mi-Portafolio/index.html",
     "main.3d77fdf2.css.map": "/Mi-Portafolio/static/css/main.3d77fdf2.css.map",
-    "main.35c1591c.js.map": "/Mi-Portafolio/static/js/main.35c1591c.js.map"
+    "main.1df39d01.js.map": "/Mi-Portafolio/static/js/main.1df39d01.js.map"
   },
   "entrypoints": [
     "static/css/main.3d77fdf2.css",
-    "static/js/main.35c1591c.js"
+    "static/js/main.1df39d01.js"
   ]
 }
